@@ -1,0 +1,134 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #222;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+
+header {
+  background:rgb(133, 18, 18);
+}
+
+/* HEADER & NAV */
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  color: #fcb016;
+  text-shadow: 2px 2px rgb(56, 56, 58);
+  font-style: italic;
+  text-align: center;
+}
+
+.img-logo {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.logo {
+  margin: 0;
+}
+
+div.nav-info {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+i.fas.fa-bars.nav-icon {
+  font-size: 2.5rem;
+}
+
+.nav-info-text {
+  display: block;
+  color: #fff;
+}
+
+/* removes bullets and padding to help links stay flush with border */
+nav ul {
+  list-style: none;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* links only centered after display block */
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: #0b7b40;
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+nav a:hover {
+  background-color: rgb(230, 176, 1);
+  text-transform: uppercase;
+}
+
+/* MAIN INTRO */
+.main-title {
+  color: #fcb016;
+  text-shadow: 2px 2px rgb(56, 56, 58);
+  font-style: italic;
+}
+
+.main-about-text {
+  color: rgb(163, 33, 33);
+  line-height: 1.5;
+}
+
+.main-photo {
+  width: 100%;
+  margin-top: 19.92px;
+}
+
+/* FLEX STYLES */
+/* mobile screen (apply at and below 767) */
+@media screen and (max-width: 767px) {
+  nav {
+    display: none;
+  }
+
+  .nav-info-text {
+    display: none;
+  }
+}
+
+/* tablet screen (apply at and above 768) */
+@media screen and (min-width: 768px) {
+  nav ul {
+    justify-content: space-around;
+    display: flex;
+  }
+
+  i.fas.fa-bars.nav-icon {
+    display: none;
+  }
+
+  .intro {
+    display: flex;
+  }
+
+  .main-text {
+    width: 50%;
+  }
+
+  .main-photo {
+    width: 50%;
+    height: 50%;
+  }
+}
+
