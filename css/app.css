@@ -22,7 +22,7 @@ header {
 
 .header-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .title {
@@ -30,6 +30,7 @@ header {
   text-shadow: 2px 2px rgb(56, 56, 58);
   font-style: italic;
   text-align: center;
+  margin: auto;
 }
 
 .img-logo {
@@ -44,6 +45,12 @@ header {
 div.nav-info {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+div.nav-button {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
 }
 
 i.fas.fa-bars.nav-icon {
@@ -123,8 +130,6 @@ span {
   font-weight: 700;
 }
 
-
-
 /* FOOTER */
 footer {
   background-color: #007336;
@@ -170,9 +175,9 @@ footer {
   .container {
     padding: 10px; 
   }
-  nav {
+  /* nav {
     display: none;
-  }
+  } */
 
   .nav-info-text {
     display: none;
