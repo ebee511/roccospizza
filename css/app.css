@@ -25,8 +25,8 @@ header {
   text-shadow: 2px 2px rgb(56, 56, 58);
   font-style: italic;
   text-align: center;
-  margin: auto;
-  width: 60%;
+  /* margin: auto;
+  width: 60%; */
   display: inline-block;
 }
 
@@ -181,6 +181,11 @@ footer {
     text-align: center;
   }
 
+  .title {
+    margin: auto;
+    width: 67%;
+  }
+
   li.nav-item {
     border-bottom: 4px solid rgba(124, 124, 124, 0.507);
   }
@@ -208,13 +213,20 @@ footer {
 /* tablet screen (apply at and above 768) */
 @media screen and (min-width: 768px) {
   .header-content {
-  display: flex;
-  justify-content: space-between;
-}
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px;
+  }
 
   nav ul {
     justify-content: space-around;
     display: flex;
+  }
+
+  nav.dropdown-menu {
+    max-width: 960px;
+    width: 100%;
   }
 
   i.fas.fa-bars.nav-icon {
@@ -223,6 +235,7 @@ footer {
 
   .intro {
     display: flex;
+    padding: 8px;
   }
 
   .main-text {
