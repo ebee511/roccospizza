@@ -55,7 +55,7 @@ input#menu {
 }
 
 i.fas.fa-bars.nav-icon {
-  font-size: 2.5rem;
+  font-size: 3.0rem;
 }
 
 .nav-info-text {
@@ -196,6 +196,7 @@ footer {
 
   i.fas.fa-bars.nav-icon {
     cursor: pointer;
+    vertical-align: top;
   }
 
   /* toggle nav button */
