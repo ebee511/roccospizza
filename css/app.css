@@ -102,6 +102,14 @@ nav a:hover {
   margin: 0 auto 10px;
 }
 
+#tucson-og-logo {
+  text-align: center;
+  border-top: 2px solid #fff;
+  width: 200px;
+  margin: 20px auto;
+  padding-top: 20px;
+}
+
 .main-photo {
   width: 100%;
   margin-top: 19.92px;
@@ -143,6 +151,10 @@ nav a:hover {
 
 span {
   font-weight: 700;
+}
+
+span.nav-info-title {
+  color: #fcb016;
 }
 
 /* FOOTER */
