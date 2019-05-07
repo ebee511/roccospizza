@@ -107,12 +107,10 @@ nav a:hover {
 .feature {
   width: 100%;
   background-color: #ebebeb;
-  padding-left: 10px;
   border-left: 8px solid #007336;
   border-bottom: 8px solid #007336;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding-top: 5px;
   text-align: center;
 }
 
@@ -208,6 +206,10 @@ footer {
   input:checked ~ .dropdown-menu {
     max-height: 100%;
   }
+
+  .feature {
+    padding-top: 5px;
+  }
 }
 
 /* tablet screen (apply at and above 768) */
@@ -250,10 +252,12 @@ footer {
   .featured-content {
     display: flex;
     justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
   .feature {
-    width: 33%;
+    width: 32%;
   }
 }
 
