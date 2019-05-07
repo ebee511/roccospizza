@@ -91,16 +91,32 @@ nav a:hover {
   color: #fcb016;
   text-shadow: 2px 2px rgb(56, 56, 58);
   font-style: italic;
+  text-align: center;
 }
 
 .main-about-text {
   color: rgb(163, 33, 33);
-  line-height: 1.5;
+  line-height: 1.45;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto 10px;
 }
 
 .main-photo {
   width: 100%;
   margin-top: 19.92px;
+}
+
+.cx-testimony {
+  color: rgb(163, 33, 33);
+  line-height: 1.45;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto 10px;
+}
+
+.cx-name {
+  text-align: right;
 }
 
 /* FEATURED */
@@ -244,8 +260,11 @@ footer {
     width: 50%;
   }
 
-  .main-photo {
+  .main-support-items {
     width: 50%;
+  }
+
+  .main-photo {
     height: 50%;
   }
 
