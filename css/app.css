@@ -87,6 +87,16 @@ nav a:hover {
 }
 
 /* MAIN INTRO */
+section.intro {
+  background: linear-gradient(
+    rgba(20,20,20),
+    rgba(20,20,20,.5)
+  ),
+  url("../imgs/roccospizza.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .main-title {
   color: #fcb016;
   text-shadow: 2px 2px rgb(56, 56, 58);
@@ -111,6 +121,7 @@ nav a:hover {
 }
 
 .main-photo {
+  max-width: 960px;
   width: 100%;
   margin-top: 19.92px;
 }
@@ -197,7 +208,7 @@ footer {
 }
 
 /* FLEX STYLES */
-/* mobile screen (apply at and below 767) */
+/* MOBILE screen (apply at and below 767) */
 @media screen and (max-width: 767px) {
   .container {
     padding: 10px; 
@@ -240,7 +251,7 @@ footer {
   }
 }
 
-/* tablet screen (apply at and above 768) */
+/* TABLET screen (apply at and above 768) */
 @media screen and (min-width: 768px) {
   .header-content {
     display: flex;
@@ -285,6 +296,7 @@ footer {
     justify-content: space-between;
     padding-left: 8px;
     padding-right: 8px;
+    margin-bottom: 30px;
   }
 
   .feature {
