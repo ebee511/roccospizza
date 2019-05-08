@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: #222;
+  background: #22222278;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 400;
 }
@@ -13,7 +13,7 @@ header {
   background:rgb(133, 18, 18);
 }
 
-/* HEADER & NAV */
+/**** HEADER & NAV ****/
 .container {
   width: 100%;
   max-width: 960px;
@@ -86,7 +86,7 @@ nav a:hover {
   text-transform: uppercase;
 }
 
-/* MAIN INTRO */
+/**** MAIN INTRO ****/
 section.intro {
   background: linear-gradient(
     rgba(20,20,20),
@@ -105,7 +105,8 @@ section.intro {
 }
 
 .main-about-text {
-  color: rgb(163, 33, 33);
+  /* color: rgb(163, 33, 33); */
+  color:  #fff;
   line-height: 1.45;
   text-align: center;
   width: 80%;
@@ -114,7 +115,7 @@ section.intro {
 
 #tucson-og-logo {
   text-align: center;
-  border-top: 2px solid #fff;
+  border-top: 2px solid rgb(163, 33, 33);
   width: 200px;
   margin: 20px auto;
   padding-top: 20px;
@@ -127,7 +128,8 @@ section.intro {
 }
 
 .cx-testimony {
-  color: rgb(163, 33, 33);
+  /* color: rgb(163, 33, 33); */
+  color: #fff;
   line-height: 1.45;
   text-align: center;
   width: 80%;
@@ -138,7 +140,7 @@ section.intro {
   text-align: right;
 }
 
-/* FEATURED */
+/*** FEATURED ***/
 .feature {
   width: 100%;
   background-color: #ebebeb;
@@ -168,7 +170,7 @@ span.nav-info-title {
   color: #fcb016;
 }
 
-/* FOOTER */
+/*** FOOTER ***/
 footer {
   background-color: #007336;
 }
@@ -207,7 +209,7 @@ footer {
   color: #3b5998;
 }
 
-/* FLEX STYLES */
+/******** FLEX STYLES ********/
 /* MOBILE screen (apply at and below 767) */
 @media screen and (max-width: 767px) {
   .container {
