@@ -88,13 +88,14 @@ nav a:hover {
 
 /**** MAIN INTRO ****/
 section.intro {
-  background: linear-gradient(
+  /* background: linear-gradient(
     rgba(20,20,20),
     rgba(20,20,20,.5)
   ),
   url("../imgs/roccospizza.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: navy;
 }
 
 .main-title {
@@ -209,6 +210,30 @@ footer {
   color: #3b5998;
 }
 
+/******** MENU PAGE ********/
+.menu-title-text {
+  margin: auto;
+}
+
+#menu-title {
+  font-size: 2.5rem;
+  margin: auto;
+}
+
+.food-group {
+  background-color: #1e6c21;
+  border-bottom: 2px solid #fff;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.food-section-title {
+  color: white;
+  text-align: center;
+}
+
 /******** FLEX STYLES ********/
 /* MOBILE screen (apply at and below 767) */
 @media screen and (max-width: 767px) {
@@ -304,5 +329,36 @@ footer {
   .feature {
     width: 32%;
   }
+
+  /*** MENU ***/
+  #food {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .food-group {
+    width: 50%;
+  }
+
+  .name {
+    text-align: left;
+  }
+
+  .description {
+    text-align: right;
+  }
+
+  .pizza-names {
+    width: 80%;
+    margin: auto;
+  }
+
+  .classic-name {
+    text-align: left;
+  }
 }
 
+/* DESKTOP screen (apply at and above 992) */
+@media screen and (min-width: 992px) {
+  
+}
