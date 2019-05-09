@@ -344,17 +344,17 @@ footer {
     text-align: left;
   }
 
-  .description {
-    text-align: right;
-  }
-
-  .pizza-names {
+  .menu-names {
     width: 80%;
     margin: auto;
   }
 
   .classic-name {
     text-align: left;
+  }
+
+  .description {
+    text-align: right;
   }
 }
 
