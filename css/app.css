@@ -20,6 +20,12 @@ header {
   margin: 0 auto;
 }
 
+.row {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
 .title {
   color: #fcb016;
   text-shadow: 2px 2px rgb(56, 56, 58);
@@ -163,7 +169,7 @@ section.intro {
   margin-right: auto;
 }
 
-span {
+.bold {
   font-weight: 700;
 }
 
@@ -215,6 +221,10 @@ footer {
   margin: auto;
 }
 
+.sub-text {
+  font-size: 0.75rem;
+}
+
 #menu-title {
   font-size: 2.5rem;
   margin: auto;
@@ -225,13 +235,16 @@ footer {
   border-bottom: 2px solid #fff;
 }
 
-.name {
-  font-weight: 700;
-}
-
 .food-section-title {
   color: white;
   text-align: center;
+}
+
+.prices {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 0.75rem;
 }
 
 /******** FLEX STYLES ********/
