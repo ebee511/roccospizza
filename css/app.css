@@ -13,6 +13,10 @@ header {
   background:rgb(133, 18, 18);
 }
 
+.center {
+  text-align: center;
+}
+
 /* Screen Sizes */
 .col-6 {
   width: 50%;
@@ -222,6 +226,10 @@ footer {
 }
 
 /******** MENU PAGE ********/
+.description {
+  font-size: 0.9rem;
+}
+
 .menu-title-text {
   margin: auto;
 }
@@ -240,16 +248,13 @@ footer {
   border-bottom: 2px solid #fff;
 }
 
-.food-section-title {
-  color: white;
-  text-align: center;
-}
-
 .prices {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
   font-size: 0.75rem;
+  text-align: center;
 }
 
 .daily-soup {
@@ -266,6 +271,14 @@ footer {
   line-height: 0.9;
   margin: 30px 0;
   letter-spacing: 1px;
+}
+
+#margin-auto {
+  margin: auto;
+}
+
+.text-description {
+  margin: 5px 0;
 }
 
 /******** FLEX STYLES ********/
@@ -309,6 +322,10 @@ footer {
 
   .feature {
     padding-top: 5px;
+  }
+
+  .menu-names {
+    padding: 0 10px;
   }
 }
 
