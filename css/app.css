@@ -22,6 +22,10 @@ header {
   width: 50%;
 }
 
+.col-12 {
+  width: 100%;
+}
+
 /**** HEADER & NAV ****/
 .container {
   width: 100%;
@@ -430,6 +434,18 @@ i.fas.fa-angle-double-up {
 
   .description {
     text-align: right;
+  }
+
+  .pizza-size {
+    width: 50%;
+  }
+
+  .alcohol-description {
+    text-align: left;
+  }
+
+  .col-md-12 {
+    width: 100%;
   }
 }
 
