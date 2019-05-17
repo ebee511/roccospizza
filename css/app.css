@@ -49,6 +49,10 @@ header {
   display: inline-block;
 }
 
+.img-responsive {
+  width: 100%;
+} 
+
 .img-logo {
   max-width: 100px;
   max-height: 100px;
@@ -310,6 +314,7 @@ i.fas.fa-angle-double-up {
   background-color: #007336;
   display: flex;
   flex-wrap: wrap;
+  padding: 8px;
 }
 
 #map {
